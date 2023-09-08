@@ -5,7 +5,7 @@ export const taskApi = createApi({
   reducerPath: "taskApi",
   baseQuery: fetchBaseQuery({
     baseUrl:
-      "https://jobtask-ff7k-4eec97nl7-remonroy34-gmailcom.vercel.app/api/v1",
+      "https://jobtask-43jm-at82c9bmt-remonroy34-gmailcom.vercel.app/api/v1",
     credentials: "include",
   }),
   tagTypes: ["profileImage", "team", "task"],
