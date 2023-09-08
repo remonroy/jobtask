@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://jobtask-theta.vercel.app"],
+    origin: ["https://jobtask-theta.vercel.app/"],
     credentials: true,
   })
 );
