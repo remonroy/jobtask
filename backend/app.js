@@ -9,7 +9,7 @@ app.use(
     credentials: true,
   })
 );
-
+console.log("bangladesh");
 //all router use here
 const userRoute = require("./routes/userRoute");
 const teamRoute = require("./routes/TeamRoute");
