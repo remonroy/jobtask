@@ -315,7 +315,7 @@ _TeamCity*
 coverage*.json
 coverage*.xml
 coverage*.info
-
+config/config.env
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
