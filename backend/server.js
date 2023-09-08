@@ -10,8 +10,10 @@ process.on("uncaughtException", (err) => {
 });
 
 //config file add here
-dotenv.config({ path: "./config/config.env" });
 
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: "./config/config.env" });
+}
 //Database connect here
 databaseConnection();
 cloudinary.config({
